@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "gameposts",
+  "info": {
+    "name": "gamepost",
+    "description": "game descripton"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "gamecategories": {
+      "collection": "gamecategory",
+      "via": "gameposts"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gamecategories",
+      "handler": "Gamecategory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gamecategories/count",
+      "handler": "Gamecategory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gamecategories/:id",
+      "handler": "Gamecategory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gamecategories",
+      "handler": "Gamecategory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gamecategories/:id",
+      "handler": "Gamecategory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gamecategories/:id",
+      "handler": "Gamecategory.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gameposts",
+      "handler": "Gamepost.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gameposts/count",
+      "handler": "Gamepost.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gameposts/:id",
+      "handler": "Gamepost.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gameposts",
+      "handler": "Gamepost.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gameposts/:id",
+      "handler": "Gamepost.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gameposts/:id",
+      "handler": "Gamepost.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
