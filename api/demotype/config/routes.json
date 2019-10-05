@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/demotypes",
+      "handler": "Demotype.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/demotypes/count",
+      "handler": "Demotype.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/demotypes/:id",
+      "handler": "Demotype.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/demotypes",
+      "handler": "Demotype.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/demotypes/:id",
+      "handler": "Demotype.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/demotypes/:id",
+      "handler": "Demotype.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

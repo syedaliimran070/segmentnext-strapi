@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "demotypes",
+  "info": {
+    "name": "demotype",
+    "description": "demo content typr for testing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
