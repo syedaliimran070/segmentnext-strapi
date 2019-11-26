@@ -7,7 +7,10 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
@@ -16,8 +19,8 @@
     },
     "gameposts": {
       "collection": "gamepost",
-      "via": "gamecategories",
-      "dominant": true
+      "dominant": true,
+      "via": "gamecategories"
     }
   }
 }

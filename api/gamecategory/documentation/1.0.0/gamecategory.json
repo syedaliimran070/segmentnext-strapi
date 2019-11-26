@@ -540,6 +540,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "Picture": {
+                  "type": "string"
                 }
               }
             }
