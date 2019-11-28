@@ -28,6 +28,11 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "author": {
+      "model": "user",
+      "via": "gameposts",
+      "plugin": "users-permissions"
     }
   }
 }

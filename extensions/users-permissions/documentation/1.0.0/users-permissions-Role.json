@@ -602,6 +602,12 @@
                 },
                 "role": {
                   "type": "string"
+                },
+                "gameposts": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 }
               }
             }

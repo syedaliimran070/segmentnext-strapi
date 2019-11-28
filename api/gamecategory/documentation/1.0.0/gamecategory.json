@@ -543,6 +543,9 @@
                 },
                 "Picture": {
                   "type": "string"
+                },
+                "author": {
+                  "type": "string"
                 }
               }
             }
