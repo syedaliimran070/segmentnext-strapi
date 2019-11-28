@@ -1175,9 +1175,6 @@
                 "Name": {
                   "type": "string"
                 },
-                "Description": {
-                  "type": "string"
-                },
                 "gamecategories": {
                   "type": "array",
                   "items": {
@@ -1188,6 +1185,9 @@
                   "type": "string"
                 },
                 "author": {
+                  "type": "string"
+                },
+                "Description": {
                   "type": "string"
                 }
               }

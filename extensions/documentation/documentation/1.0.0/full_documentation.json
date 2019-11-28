@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/28/2019 10:49:11 PM"
+    "x-generation-date": "11/29/2019 2:11:34 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3665,9 +3665,6 @@
                 "Name": {
                   "type": "string"
                 },
-                "Description": {
-                  "type": "string"
-                },
                 "gamecategories": {
                   "type": "array",
                   "items": {
@@ -3678,6 +3675,9 @@
                   "type": "string"
                 },
                 "author": {
+                  "type": "string"
+                },
+                "Description": {
                   "type": "string"
                 }
               }
@@ -3707,9 +3707,6 @@
             "type": "string"
           },
           "Name": {
-            "type": "string"
-          },
-          "Description": {
             "type": "string"
           },
           "gamecategories": {
@@ -3821,15 +3818,15 @@
                 }
               }
             }
+          },
+          "Description": {
+            "type": "string"
           }
         }
       },
       "NewGamepost": {
         "properties": {
           "Name": {
-            "type": "string"
-          },
-          "Description": {
             "type": "string"
           },
           "gamecategories": {
@@ -3839,6 +3836,9 @@
             }
           },
           "author": {
+            "type": "string"
+          },
+          "Description": {
             "type": "string"
           }
         }
@@ -4047,9 +4047,6 @@
                 "Name": {
                   "type": "string"
                 },
-                "Description": {
-                  "type": "string"
-                },
                 "gamecategories": {
                   "type": "array",
                   "items": {
@@ -4060,6 +4057,9 @@
                   "type": "string"
                 },
                 "author": {
+                  "type": "string"
+                },
+                "Description": {
                   "type": "string"
                 }
               }

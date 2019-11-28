@@ -17,9 +17,6 @@
     "Name": {
       "type": "string"
     },
-    "Description": {
-      "type": "text"
-    },
     "gamecategories": {
       "collection": "gamecategory",
       "via": "gameposts"
@@ -33,6 +30,9 @@
       "model": "user",
       "via": "gameposts",
       "plugin": "users-permissions"
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }

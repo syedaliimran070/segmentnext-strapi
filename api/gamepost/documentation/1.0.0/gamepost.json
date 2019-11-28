@@ -519,9 +519,6 @@
           "Name": {
             "type": "string"
           },
-          "Description": {
-            "type": "string"
-          },
           "gamecategories": {
             "type": "array",
             "items": {
@@ -631,15 +628,15 @@
                 }
               }
             }
+          },
+          "Description": {
+            "type": "string"
           }
         }
       },
       "NewGamepost": {
         "properties": {
           "Name": {
-            "type": "string"
-          },
-          "Description": {
             "type": "string"
           },
           "gamecategories": {
@@ -649,6 +646,9 @@
             }
           },
           "author": {
+            "type": "string"
+          },
+          "Description": {
             "type": "string"
           }
         }
